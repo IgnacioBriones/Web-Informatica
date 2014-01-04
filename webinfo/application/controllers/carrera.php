@@ -36,32 +36,31 @@ class Carrera extends CI_Controller {
             );
             if ($this->Carrera_model->agregar($carrera)) {
                 $this->session->set_flashdata('msg, los datos de la carrera han sido guardado exitosamente');
-                redirect('carrera'); 
-            }else {
-                    $this->session->set_flashdata('msg, los datos de la carrera no se han agregado correctamente');
-                    redirect('carrera');
-                }
+                redirect('carrera');
+            } else {
+                $this->session->set_flashdata('msg, los datos de la carrera no se han agregado correctamente');
+                redirect('carrera');
             }
         }
+    }
 
-   
-     public function editar($id=NULL) {
+    public function editar($id = NULL) {
         $data['title'] = 'Editar carrera';
         $data['action'] = 'Editar';
-        if ($this->input->post()){
+        if ($this->input->post()) {
             $id = $this->input->post('id', true);
-                $carrera = array(
+            $carrera = array(
                 'codigo' => $this->input->post('codigo', true),
                 'nombre_carrera' => $this->input->post('nombre_carrera', true),
-            );   
-            if ($this->Carrera_model->editar($id,$carrera)) {
+            );
+            if ($this->Carrera_model->editar($id, $carrera)) {
                 $this->session->set_flashdata('msg, los datos de la carrera han sido actualizados exitosamente');
-                redirect('carrera'); 
-                 }else {
-                    $this->session->set_flashdata('msg, los datos de la carrera no se han editado correctamente');
-                    redirect('carrera');
-                }
+                redirect('carrera');
+            } else {
+                $this->session->set_flashdata('msg, los datos de la carrera no se han editado correctamente');
+                redirect('carrera');
+            }
         }
-        
     }
+
 }
