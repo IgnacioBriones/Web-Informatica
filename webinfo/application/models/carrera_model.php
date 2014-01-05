@@ -20,7 +20,7 @@ class Carrera_model extends CI_Model {
 
     Public function leer_carrera() {
         $query = $this->db->order_by('codigo')->
-                select('carrera.codigo, carrera.nombre_carrera')
+                        select('carrera.codigo, carrera.nombre_carrera')
                         ->from($this->tabla)->get();
         return $query->result();
     }
@@ -34,13 +34,12 @@ class Carrera_model extends CI_Model {
                         update($this->tabla, $dato)->where('codigo', $ids);
     }
 
-    public function leer_carreras($codigo)
-    {
-         $query = $this->db->select('carrera.codigo, carrera.nombre_carrera')
+    public function leer_carreras($codigo) {
+        $query = $this->db->select('carrera.codigo, carrera.nombre_carrera')
                         ->from($this->tabla)->where($codigo)->get()->row();
         return $query;
     }
-    
+
 }
 
 ?>
