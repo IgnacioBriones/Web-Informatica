@@ -9,7 +9,7 @@
 /**
  * Description of noticia_model
  *
- * @author neocamper
+ * @author Sebastián Cerón
  */
 class noticia_model {
     //put your code here

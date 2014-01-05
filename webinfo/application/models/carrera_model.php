@@ -15,17 +15,17 @@ class Carrera_model extends CI_Model {
     var $tabla = 'carrera';
 
     function __construct() {
-        
+        parent::__construct();
     }
 
-    Public function leer_carrera() {
+    public function leer_carrera() {
         $query = $this->db->order_by('codigo')->
                         select('carrera.codigo, carrera.nombre_carrera')
                         ->from($this->tabla)->get();
         return $query->result();
     }
 
-    Public function agregar($carrera) {
+    public function agregar($carrera) {
         return $this->db->insert($this->tabla, $carrera);
     }
 

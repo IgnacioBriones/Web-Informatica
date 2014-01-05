@@ -9,7 +9,7 @@
 /**
  * Description of noticia
  *
- * @author neocamper
+ * @author Sebastián Cerón
  */
 class noticia {
     //put your code here
