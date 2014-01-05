@@ -19,9 +19,8 @@ class Laboral_model extends CI_Model {
     }
 
     Public function leer_laboral() {
-        $query = $this->db->order_by('codigo')->
-                select('carrera.codigo, carrera.nombre_carrera')
-                        ->from($this->tabla)->get();
+        $query = $this->db->order_by('idlaboral')->
+                get($this->tabla);
         return $query->result();
     }
 

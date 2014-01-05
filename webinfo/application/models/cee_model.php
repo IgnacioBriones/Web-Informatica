@@ -21,28 +21,13 @@ class Cee_model extends CI_Model {
 
     public function Leer_cee() {
         $query = $this->db->order_by('periodo')->
-                        select('cee.periodo, cee.id_cee, cee.cargo, cee.rut')
+                        select('periodo, idcee, cargo, rut')
                         ->from($this->tabla)->get();
-        /* if ($query) {
-          $estudiante = $this->ws_dirdoc->getEstudiante($query->cee . rut);
-          if ($estudiante) {
-
-          $restudiante = array('nombre' => $estudiante->nombres . ' ' .
-          $estudiante->apellidoPaterno . ' ' . $estudiante->apellidoMaterno,
-          'codigoCarrera' => $estudiante->codigoCarrera,
-          'email' => $estudiante->email,
-          'rut' => $estudiante->rut,
-          'cargo' => $query->cee.cargo,
-          'periodo'=> $query->cee.periodo,
-
-          );
-          }
-          } */
         return $query->result();
     }
 
     public function Comprobacion($rut) {
-        $this->load->library('wsdirdoc');
+        $this->load->library('ws_dirdoc');
         $estudiante = $this->ws_dirdoc->getEstudiante($rut);
         if ($estudiante) {
             $usuario_estudiante = array(
@@ -54,9 +39,9 @@ class Cee_model extends CI_Model {
                 'estado' => $estudiante->estado,
                 'rut' => $estudiante->rut
             );
+            return $estudiante;
         } else {
             return NULL;
         }
     }
-
 }

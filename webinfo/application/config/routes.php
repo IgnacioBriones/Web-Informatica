@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "carrera";
+$route['default_controller'] = "main_template";
 $route['404_override'] = '';
 
 
