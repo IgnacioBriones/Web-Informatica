@@ -20,7 +20,7 @@ class Carrera extends CI_Controller {
 
     public function index() {
         $data['title'] = 'Carreras';
-        $data['carreras'] = $this->carrera_model->leer_carreras();
+        $data['carreras'] = $this->Carrera_model->leer_carreras();
         $this->load->view('plantillas/header');
         $this->load->view('body_carrera');
         $this->load->view('footer');
