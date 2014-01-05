@@ -20,8 +20,8 @@ class Cee extends CI_Controller {
     Public function index() {
         $data['title'] = 'Centro de Estudiantes';
         $data['Cee'] = $this->Cee_model->leer_cee();
-        $this->load->view('plantillas/header');
-        $this->load->view('plantillas/body_cee');
+        $this->load->view('plantillas/header',$data);
+        $this->load->view('plantillas/body_cee',$data);
         $this->load->view('plantillas/footer');
     }
 

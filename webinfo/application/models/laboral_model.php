@@ -34,7 +34,7 @@ class Laboral_model extends CI_Model {
                         update($this->tabla, $dato)->where('codigo', $ids);
     }
 
-    public function leer_laboral($idlaboral)
+    public function leer_laborales($idlaboral)
     {
          $query = $this->db->select('laboral.idlaboral, laboral.fecha_publicacion_l,
              laboral.titulo_laboral, laboral.cuerpo_laboral')

@@ -11,7 +11,7 @@
  *
  * @author Ignacio Briones
  */
-class Carrera extends CI_Controller {
+class Laboral extends CI_Controller {
 
     function __construct() {
         parent::__construct();
@@ -22,13 +22,11 @@ class Carrera extends CI_Controller {
         $data['title'] = 'laboral';
         $data['laboral'] = $this->laboral_model->leer_laboral();
         $this->load->view('plantillas/header');
-        $this->load->view('body_laboral');
-        $this->load->view('footer');
+        $this->load->view('plantillas/body_laboral');
+        $this->load->view('plantillas/footer');
     }
 
     public function agregar() {
-        $data['title'] = 'Agregar nuevo aviso laboral';
-        $data['action'] = 'Agregar';
         if ($this->input->post()) {
             $laboral = array(
                 'idlaboral' => $this->input->post('idlaboral', true),

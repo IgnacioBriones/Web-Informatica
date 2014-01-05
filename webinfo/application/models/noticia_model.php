@@ -11,6 +11,6 @@
  *
  * @author Sebastián Cerón
  */
-class noticia_model {
-    //put your code here
+class Noticia_model {
+    
 }

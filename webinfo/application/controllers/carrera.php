@@ -20,15 +20,15 @@ class Carrera extends CI_Controller {
 
     public function index() {
         $data['title'] = 'Carreras';
-        $data['carreras'] = $this->Carrera_model->leer_carreras();
-        $this->load->view('plantillas/header');
-        $this->load->view('body_carrera');
-        $this->load->view('footer');
+        $data['main_content']='inicio';
+        $data['carreras'] = $this->carrera_model->leer_carreras();
+        $this->load->view('plantilas/header',$data);
+        $this->load->view('plantilas/body_carrera',$data);
+        $this->load->view('plantilas/footer');
     }
 
     public function agregar() {
-        $data['title'] = 'Agregar nueva carrera';
-        $data['action'] = 'Agregar';
+
         if ($this->input->post()) {
             $carrera = array(
                 'codigo' => $this->input->post('codigo', true),

@@ -1,5 +1,8 @@
 <?php
 
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -18,10 +21,8 @@ class Carrera_model extends CI_Model {
         parent::__construct();
     }
 
-    public function leer_carrera() {
-        $query = $this->db->order_by('codigo')->
-                        select('carrera.codigo, carrera.nombre_carrera')
-                        ->from($this->tabla)->get();
+    public function leer_carreras() {
+        $query = $this->db->get('carrera');
         return $query->result();
     }
 
@@ -34,7 +35,7 @@ class Carrera_model extends CI_Model {
                         update($this->tabla, $dato)->where('codigo', $ids);
     }
 
-    public function leer_carreras($codigo) {
+    public function leer_carrera($codigo) {
         $query = $this->db->select('carrera.codigo, carrera.nombre_carrera')
                         ->from($this->tabla)->where($codigo)->get()->row();
         return $query;
