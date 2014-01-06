@@ -7,7 +7,7 @@
                     <div class="wrapper">
                         <div class="grid_9">
                             <h1>
-                                <a class="logo" href="<?= base_url();?>">family center</a>
+                                <a class="logo" href="<?= base_url(); ?>">family center</a>
                             </h1>  
                         </div>
                         <div class="grid_3">
@@ -15,10 +15,10 @@
                                 <fieldset>	
                                     <div class="search-field">
                                         <input name="search" type="text" value="Search" onFocus="if (this.value == 'Search') {
-                                                                                            this.value = ''
-                                                                                        }" onBlur="if (this.value == '') {
-                                                                                            this.value = 'Search'
-                                                                                        }" />
+                                                    this.value = ''
+                                                }" onBlur="if (this.value == '') {
+                                                    this.value = 'Search'
+                                                }" />
                                     </div>
                                     <a class="search-button" href="#" onClick="document.getElementById('search-form').submit()"><span>search</span></a>							
                                 </fieldset>
@@ -37,10 +37,10 @@
                                 <ul class="menu">
                                     <li><a href="<?= base_url(); ?>">Inicio</a><strong></strong></li>
                                     <li class="active"><a href="<?= base_url() . "index.php/academicos"; ?>">Academicos</a><strong></strong></li>
-                                    <li><a href="<?= base_url() ."index.php/estudiante" ;?>">Estudiantes</a><strong></strong></li>
-                                    <li><a href="<?= base_url() ."index.php/laboral" ;?>">Laboral</a><strong></strong></li>
-                                    <li><a href="<?= base_url() ."index.php/noticia" ;?>">Noticias</a><strong></strong></li>
-                                    <li class="last"><a href="<?= base_url() ."index.php/contacto" ;?>">Contactos</a><strong></strong></li>
+                                    <li><a href="<?= base_url() . "index.php/estudiante"; ?>">Estudiantes</a><strong></strong></li>
+                                    <li><a href="<?= base_url() . "index.php/laboral"; ?>">Laboral</a><strong></strong></li>
+                                    <li><a href="<?= base_url() . "index.php/noticia"; ?>">Noticias</a><strong></strong></li>
+                                    <li class="last"><a href="<?= base_url() . "index.php/contacto"; ?>">Contactos</a><strong></strong></li>
                                 </ul>
                             </nav>
                         </div>
@@ -58,64 +58,135 @@
                     <article class="grid_12">
                         <div class="aligncenter inner-top">
                             <strong class="title-1">&quot;Cuerpo Academico&quot;</strong>
-                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informática y Computación, se ha nutrido de un grupo de profesionales, que con su experiencia y amor por la docencia, han enriquecido la formación de nuestros estudiantes. </strong>
+                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informatica y Computacion,que se ha nutrido de un grupo de profesionales, han enriquecido la formacion de nuestros estudiantes. </strong>
                         </div>
                     </article>
                     <div class="clear"></div>
                 </div>
                 <div class="wrapper">
                     <article class="grid_6">
-                        <h2 class="indent-bot">Nuestros equipo</h2>
+                        <h2 class="indent-bot">Nuestro equipo</h2>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() ."images/imagen.php.jpg"?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/imagen.php.jpg" ?>" alt="" /></figure>
                             <div class="extra-wrap">
                                 <h6 class="reg p0"><a class="link" href="#">Mauro Castillo</a></h6>
-                                <p>Director de Escuela </p>	
+                                <p>Director de Escuela </p>        
+                                Teléfono: 78 77 100 <br>
+                                Email:  mcast@utem.cl <br>
+
 
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() ."images/page4-img3.jpg" ;?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Martita Rojas</a></h6>
-                                <p>Nam elit magna</p>
-                                profesora de base de datos.
+                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
+                                <p>Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  marta.rojas@utem.cl 
                             </div>
                         </div>
-                        <div class="wrapper">
-                            <figure class="img-indent"><img src="<?= base_url() ."images/page4-img5.jpg";?>" alt="" /></figure>
+                        
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/vescobar.jpeg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Rene Peña Crack!</a></h6>
-                                <p>Nam elit magna</p>
-                                profesor de simulacion.
+                                <h6 class="reg p0"><a class="link" href="#">Victor Escobar</a></h6>
+                                <p>ex- Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  vescobar@utem.cl 
                             </div>
                         </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/pmellado.jpg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Patricia Mellado</a></h6>
+                                <p>Académico</p>
+                                Teléfono: 7877100<br>
+                                Email:  pmellado@utem.cl 
+                            </div>
+                        </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                <p>Académico</p>
+                                Teléfono: 7877100<br>
+                                Email:  szapata@utem.cl 
+                            </div>
+                        </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/vescobar.jpeg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Victor Escobar</a></h6>
+                                <p>ex- Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  vescobar@utem.cl 
+                            </div>
+                        </div>
+                        
                     </article>		 
                     <article class="grid_6 spacer-3">
                         <div class="indent2">
                             <div class="wrapper img-indent-bot">
-                                <figure class="img-indent"><img src="<?= base_url() ."images/page4-img2.jpg";?>" alt="" /></figure>
+                                <figure class="img-indent"><img src="<?= base_url() . "images/page4-img5.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Sara Rojas</a></h6>
-                                    <p>Nam elit magna</p>
-                                    profesora de Base de datos.
+                                    <h6 class="reg p0"><a class="link" href="#">Rene Peña </a></h6>
+                                    <p>Académico</p>
+
+                                    Teléfono: 7877100<br>
+                                    Email:  rpena@utem.cl
+
                                 </div>
                             </div>
                             <div class="wrapper img-indent-bot">
-                                <figure class="img-indent"><img src="<?= base_url()."images/page4-img4.jpg";?>" alt="" /></figure>
+                                <figure class="img-indent"><img src="<?= base_url() . "images/page4-img2.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Sara Rojas</a></h6>
+                                    <p>Académico</p>
+
+                                    Teléfono: 7877100<br>
+                                    Email:  sara.rojas@utem.cl
+
+                                </div>
+                            </div>
+                           
+                             <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/hpincheira.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Hector Pincheira</a></h6>
+                                    <p>Jefe de carrera informatica</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  hpincheira@utem.cl
+                                </div>
+                            </div>
+                                <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/omagna.jpeg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Oscar Magna</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  omagna@utem.cl
+                                </div>
+                            </div>
+                            <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/page4-img4.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
                                     <h6 class="reg p0"><a class="link" href="#">Ricardo Corbinaud</a></h6>
-                                    <p>Nam elit magna</p>
-                                    Programador en corbi C.
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  sara.rojas@utem.cl
                                 </div>
                             </div>
                             <div class="wrapper">
-                                <figure class="img-indent"><img src="<?= base_url() ."images/page4-img6.jpg";?>" alt="" /></figure>
+                                <figure class="img-indent"><img src="<?= base_url() . "images/page4-img6.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Pelao Chucheta</a></h6>
-                                    <p>Nam elit magna</p>
-                                    Wn weno pa chuchear.							</div>
+                                    <h6 class="reg p0"><a class="link" href="#">Francisco Cofre</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  fcofre@utem.cl							</div>
                             </div>
+                        
+                        
                         </div>
                     </article>		   
                 </div>
