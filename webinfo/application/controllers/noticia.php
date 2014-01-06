@@ -20,7 +20,7 @@ class Noticia extends CI_Controller {
 
     public function index() {
         $data['title'] = 'Noticia';
-        $data['noticia'] = $this->noticia_model->leer_noticia();
+        $data['noticias'] = $this->noticia_model->leer_noticia();
         $this->load->view('plantilas/header', $data);
         $this->load->view('plantilas/body_noticia', $data);
         $this->load->view('plantilas/footer');
