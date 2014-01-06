@@ -64,7 +64,7 @@
                 </div>
                 <div class="wrapper margin-bot">
                     <article class="grid_12">
-                        <h2 class="indent-bot">Recommended Doctors</h2>
+                        <h2 class="indent-bot">Nuestros</h2>
                         <div class="wrapper img-indent-bot">
                             <article class="grid_4 alpha">
 
