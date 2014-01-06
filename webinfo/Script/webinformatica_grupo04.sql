@@ -26,7 +26,7 @@ CREATE TABLE funcionario
 	nombre_funcionario char(255) NOT NULL,
 	paterno char(255) NOT NULL,
 	materno char(255) NOT NULL,
-	alias char(255) NOT NULL,
+	alias_f char(255) NOT NULL,
 	passwd char(255) NOT NULL
 ) WITHOUT OIDS;
 
@@ -63,5 +63,8 @@ CREATE TABLE laboral
 	PRIMARY KEY (idlaboral)
 ) WITHOUT OIDS;
 
+insert into carrera (codigo, nombre_carrera) values
+                                                     (21041, 'ingenieria civil en computacion mencion informatica'),
+                                                     (21030, 'ingenieria en informatica');
 
 
