@@ -36,7 +36,7 @@
                             <nav>
                                 <ul class="menu">
                                     <li><a href="<?= base_url(); ?>">Inicio</a><strong></strong></li>
-                                    <li><a href="<?= base_url() . "index.php/academicos"; ?>">Academicos</a><strong></strong></li>
+                                    <li><a href="<?= base_url() . "index.php/academicos"; ?>">Funcionarios</a><strong></strong></li>
                                     <li class="active"><a href="<?= base_url() . "index.php/estudiante"; ?>">Estudiantes</a><strong></strong></li>
                                     <li><a href="<?= base_url() . "index.php/laboral"; ?>">Laboral</a><strong></strong></li>
                                     <li><a href="<?= base_url() . "index.php/noticia"; ?>">Noticias</a><strong></strong></li>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="wrapper margin-bot">
                     <article class="grid_12">
-                        <h2 class="indent-bot">Nuestros</h2>
+                        <h2 class="indent-bot">Nuestra Informacion</h2>
                         <div class="wrapper img-indent-bot">
                             <article class="grid_4 alpha">
 
@@ -73,7 +73,7 @@
                         <div class="wrapper border-bot">
                             <article class="grid_4 alpha">
                                 <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?= base_url() . "images/logodepto.png"; ?>" alt="" /></figure>
+                                    <figure class="img-indent"><img src="<?= base_url() . "images/nuestras_carreras.jpg"; ?>" alt="" /></figure>
                                     <div class="extra-wrap">
                                         <h6 class="p1"><a class="link" href="#">Nuestras Carreras</a></h6>
                                         Información de las carreras sus mallas y competencias
@@ -82,7 +82,7 @@
                             </article>
                             <article class="grid_4">
                                 <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?= base_url() . "images/page2-img5.jpg"; ?>" alt="" /></figure>
+                                    <figure class="img-indent"><img src="<?= base_url() . "images/reglamento.jpg"; ?>" alt="" /></figure>
                                     <div class="extra-wrap">
                                         <h6 class="p1"><a class="link" href="#">Reglamentos</a></h6>
                                         Reglamentos Estudiantiles, de titulación y de las carreras.
@@ -91,7 +91,7 @@
                             </article>
                             <article class="grid_4 omega">
                                 <div class="wrapper">
-                                    <figure class="img-indent"><img src="<?= base_url() . "images/page2-img6.jpg" ?>" alt="" /></figure>
+                                    <figure class="img-indent"><img src="<?= base_url() . "images/cee.jpg" ?>" alt="" /></figure>
                                     <div class="extra-wrap">
                                         <h6 class="p1"><a class="link" href="#">Centros de Estudiantes</a></h6>
                                         Historico de los Centros de estudiantes de nuestras carreras.

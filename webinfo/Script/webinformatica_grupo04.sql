@@ -35,7 +35,7 @@ CREATE TABLE noticia
 (
 	idnoticia serial NOT NULL,
 	titulo_noticia char(255) NOT NULL,
-	cuerpo_noticia char(255) NOT NULL,
+	cuerpo_noticia char(10000) NOT NULL,
 	fecha_publicacion_n date NOT NULL,
 	alias_user char(255) NOT NULL,
 	PRIMARY KEY (idnoticia)

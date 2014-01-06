@@ -36,7 +36,7 @@
                             <nav>
                                 <ul class="menu">
                                     <li><a href="<?= base_url(); ?>">Inicio</a><strong></strong></li>
-                                    <li><a href="<?= base_url() . "index.php/academicos"; ?>">Academicos</a><strong></strong></li>
+                                    <li><a href="<?= base_url() . "index.php/academicos"; ?>">Funcionario</a><strong></strong></li>
                                     <li><a href="<?= base_url() . "index.php/estudiante"; ?>">Estudiantes</a><strong></strong></li>
                                     <li><a href="<?= base_url() . "index.php/laboral"; ?>">Laboral</a><strong></strong></li>
                                     <li class="active"><a href="<?= base_url() . "index.php/noticia"; ?>">Noticias</a><strong></strong></li>
