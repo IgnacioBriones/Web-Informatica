@@ -36,7 +36,7 @@
                                 <nav>
                                     <ul class="menu">
                                         <li><a href="<?= base_url() ;?>">Inicio</a><strong></strong></li>
-                                        <li><a href="<?= base_url() ."index.php/academicos" ;?>">Academicos</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ."index.php/academicos" ;?>">Funcionarios</a><strong></strong></li>
                                         <li><a href="<?= base_url() ."index.php/estudiante" ;?>">Estudiantes</a><strong></strong></li>
                                         <li><a href="<?= base_url() ."index.php/laboral" ;?>">Laboral</a><strong></strong></li>
                                         <li><a href="<?= base_url() ."index.php/noticia" ;?>">Noticias</a><strong></strong></li>
@@ -57,39 +57,38 @@
                     <div class="border-bot margin-bot">
                         <article class="grid_12">
                             <div class="aligncenter inner-top">
-                                <strong class="title-1">&quot;Bring harmony to your family!&quot;</strong>
-                                <strong class="title-2">You have to be persistent to establish and maintain healthy, two-way communication. We can help.</strong>
+                                <strong class="title-1">&quot;contactanos!&quot;</strong>
+                                <strong class="title-2">Su opinion es muy importante para nosotros, por favor, complete el siguiente formulario, para comunicarse con la Escuela de Informatica. </strong>
                             </div>
                         </article>
                         <div class="clear"></div>
                     </div>
                     <div class="wrapper">
                         <article class="grid_7 suffix_1 spacer-5">
-                            <h2>Get in Touch</h2>
+                            <h2>Contactanos!</h2>
                             <form id="contact-form" method="post" enctype="multipart/form-data">					
                                 <fieldset>
-                                    <label><span class="text-form">Name:</span><input name="p1" type="text" /></label>
+                                    <label><span class="text-form">Nombre:</span><input name="p1" type="text" /></label>
                                     <label><span class="text-form">Email:</span><input name="p2" type="text" /></label>   
-                                    <label><span class="text-form">Phone:</span><input name="p3" type="text" /></label>									
-                                    <div class="wrapper"><div class="text-form">Message:</div><textarea></textarea></div>
+                                    <label><span class="text-form">telefono:</span><input name="p3" type="text" /></label>									
+                                    <div class="wrapper"><div class="text-form">Mensaje:</div><textarea></textarea></div>
                                     <div class="buttons">
-                                        <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
-                                        <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                        <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Limpiar</a>
+                                        <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Enviar</a>
                                     </div>							 
                                 </fieldset>						
                             </form>
                         </article>
                         <article class="grid_4">
-                            <h2>Find Us</h2>
+                            <h2>Encuentranos</h2>
                             <figure class="img-indent-bot">
                                 <iframe width="300" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Jos%C3%A9+Pedro+Alessandri+1242,+Santiago,+Chile&amp;aq=t&amp;sll=37.0625,-95.677068&amp;sspn=43.172547,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Jos%C3%A9+Pedro+Alessandri+1242,+%C3%91u%C3%B1oa,+Santiago,+Regi%C3%B3n+Metropolitana,+Chile&amp;t=m&amp;z=14&amp;ll=-33.466001,-70.598277&amp;output=embed"></iframe><br />
                             </figure>
                             <dl>
-                                <dt class="indent-bot">8901 Marmora Road,<br>Glasgow, D04 89GR.</dt>
-                                <dd><span>Freephone:</span>  +1 800 559 6580</dd>
-                                <dd><span>Telephone:</span>  +1 959 603 6035</dd>
-                                <dd><span>FOXO:</span>  +1 504 889 9898</dd>
-                                <dd><span>E-mail:</span> <a href="#">mail@demolink.org</a></dd>
+                                <dt class="indent-bot">Avenida José Pedro Alessandri 1242,<br> Ñuñoa, Santiago de Chile..</dt>
+                                <dd><span>Telefono:</span>  (56 02) 7877100</dd>
+                                
+                                <dd><span>E-mail:</span> <a href="#">contacto.informatica@utem.cl</a></dd>
                             </dl>
                         </article>
                     </div>
