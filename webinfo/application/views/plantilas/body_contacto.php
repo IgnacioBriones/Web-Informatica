@@ -1,10 +1,3 @@
-<?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
     <body id="page6">
         <!-- header -->
         <header>
@@ -14,7 +7,7 @@
                         <div class="wrapper">
                             <div class="grid_9">
                                 <h1>
-                                    <a class="logo" href="index.html">family center</a>
+                                    <a class="logo" href="<?= base_url();?>">family center</a>
                                 </h1>  
                             </div>
                             <div class="grid_3">
@@ -42,12 +35,12 @@
                             <div class="grid_12">
                                 <nav>
                                     <ul class="menu">
-                                        <li><a href="index.html">Inicio</a><strong></strong></li>
-                                        <li><a href="staff.html">Academicos</a><strong></strong></li>
-                                        <li><a href="health.html">Estudiantes</a><strong></strong></li>
-                                        <li><a href="advices.html">Laboral</a><strong></strong></li>
-                                        <li><a href="news.html">Noticias</a><strong></strong></li>
-                                        <li class="last active"><a href="contacts.html">Contactos</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ;?>">Inicio</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ."index.php/academicos" ;?>">Academicos</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ."index.php/estudiante" ;?>">Estudiantes</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ."index.php/laboral" ;?>">Laboral</a><strong></strong></li>
+                                        <li><a href="<?= base_url() ."index.php/noticia" ;?>">Noticias</a><strong></strong></li>
+                                        <li class="last active"><a href="<?= base_url() ."index.php/contacto" ;?>">Contactos</a><strong></strong></li>
                                     </ul>
                                 </nav>
                             </div>
