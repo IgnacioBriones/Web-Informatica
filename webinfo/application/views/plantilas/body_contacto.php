@@ -57,7 +57,7 @@
                     <div class="border-bot margin-bot">
                         <article class="grid_12">
                             <div class="aligncenter inner-top">
-                                <strong class="title-1">&quot;contactanos!&quot;</strong>
+                                <strong class="title-1">Contactanos!</strong>
                                 <strong class="title-2">Su opinion es muy importante para nosotros, por favor, complete el siguiente formulario, para comunicarse con la Escuela de Informatica. </strong>
                             </div>
                         </article>

@@ -87,6 +87,33 @@
                                 Email:  marta.rojas@utem.cl 
                             </div>
                         </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
+                                <p>Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  marta.rojas@utem.cl 
+                            </div>
+                        </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
+                                <p>Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  marta.rojas@utem.cl 
+                            </div>
+                        </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
+                                <p>Jefe Carrera ICCI</p>
+                                Teléfono: 7877100<br>
+                                Email:  marta.rojas@utem.cl 
+                            </div>
+                        </div>
 
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/vescobar.jpeg"; ?>" alt="" /></figure>
@@ -181,8 +208,41 @@
                                     Teléfono: 7877100<br>
                                     Email:  szapata@utem.cl 
                                 </div>
+                            </div>                            <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  szapata@utem.cl 
+                                </div>
+                            </div>                            <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  szapata@utem.cl 
+                                </div>
+                            </div>                            <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  szapata@utem.cl 
+                                </div>
                             </div>
-                                                      
+                                                        <div class="wrapper img-indent-bot">
+                                <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
+                                <div class="extra-wrap">
+                                    <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                    <p>Académico</p>
+                                    Teléfono: 7877100<br>
+                                    Email:  szapata@utem.cl 
+                                </div>
+                            </div>
+
 
 
 
