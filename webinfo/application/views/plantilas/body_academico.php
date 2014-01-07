@@ -58,7 +58,7 @@
                     <article class="grid_12">
                         <div class="aligncenter inner-top">
                             <strong class="title-1">&quot;Cuerpo Laboral&quot;</strong>
-                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informatica,que se ha nutrido de un grupo de profesionales, han enriquecido la formacion de nuestros estudiantes con el apoyo de
+                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informatica,que se ha nutrido de un grupo de profesionales, han enriquecido la formacion de nuestros estudiantes con el apollo de
                                 nuestros funcionarios de laboratorio, academicos y secretarias.</strong>
                         </div>
                     </article>
@@ -81,7 +81,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/marta"; ?>">Marta Rojas</a></h6>
                                 <p>Jefe Carrera ICCI</p>
                                 Teléfono: 7877100<br>
                                 Email:  marta.rojas@utem.cl 
@@ -90,7 +90,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/vescobar.jpeg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Victor Escobar</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/victor"; ?>">Victor Escobar</a></h6>
                                 <p>Jefe Carrera ICCI</p>
                                 Teléfono: 7877100<br>
                                 Email:  vescobar@utem.cl 
@@ -99,7 +99,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/rcorbi.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Ricardo Corbinaud</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/ricardo"; ?>">Ricardo Corbinaud</a></h6>
                                 <p>Académico</p>
                                 Teléfono: 7877100<br>
                                 Email:  rcorbinaud@utem.cl 
@@ -108,7 +108,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/ptorrealba"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#"></a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/ptorrealba"; ?>"></a></h6>
                                 <p>Secretaria del departamento de informatica</p>
                                 Teléfono: 7877100<br>
                                 Email:  ptorrealba@utem.cl 
@@ -118,7 +118,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/pmellado.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Patricia Mellado</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/pmellado"; ?>">Patricia Mellado</a></h6>
                                 <p>Académico</p>
                                 Teléfono: 7877100<br>
                                 Email:  vescobar@utem.cl 
@@ -127,7 +127,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/rcorbi.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Ricardo Corbinaud</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/ricardo"; ?>">Ricardo Corbinaud</a></h6>
                                 <p>Académico</p>
                                 Teléfono: 7877197<br>
                                 Email:  rcorbin@utem.cl 
@@ -137,16 +137,16 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/mmorales.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Mario Morales</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/mario"; ?>">Mario Morales</a></h6>
                                 <p>Encargado de laboratorios</p>
                                 Teléfono: 7877100<br>
                                  
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/fcofre.jpg"; ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/fjofre.jpeg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Francisco Jofre</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/cofre"; ?>">Francisco Jofre</a></h6>
                                 <p>Academico</p>
                                 Teléfono: 7877069<br>
                                 Email:  fcofre@utem.cl 
@@ -160,7 +160,7 @@
                             <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/hpincheira.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Hector Pincheira</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/pincheira"; ?>">Hector Pincheira</a></h6>
                                     <p>Jefe de carrera informatica</p>
                                     Teléfono: 7877100<br>
                                     Email:  hpincheira@utem.cl
@@ -170,7 +170,7 @@
                             <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/page4-img5.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Rene Peña </a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/rene"; ?>">Rene Peña </a></h6>
                                     <p>Académico</p>
 
                                     Teléfono: 7877100<br>
@@ -181,7 +181,7 @@
                             <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/page4-img2.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Sara Rojas</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/sara"; ?>">Sara Rojas</a></h6>
                                     <p>Académico</p>
 
                                     Teléfono: 7877100<br>
@@ -194,7 +194,7 @@
                             <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/omagna.jpeg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Oscar Magna</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/oscar"; ?>">Oscar Magna</a></h6>
                                     <p>Académico</p>
                                     Teléfono: 7877100<br>
                                     Email:  omagna@utem.cl
@@ -203,7 +203,7 @@
                             <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/santiagozapata.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Santiago Zapata</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/szapata"; ?>">Santiago Zapata</a></h6>
                                     <p>Académico</p>
                                     Teléfono: 7877100<br>
                                     Email:  szapata@utem.cl 
@@ -211,7 +211,7 @@
                             </div>                            <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/fcofre.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Francisco Cofre</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/cofre"; ?>">Francisco Cofre</a></h6>
                                     <p>Académico</p>
                                     Teléfono: 7877100<br>
                                     Email:  fcofre@utem.cl 
@@ -219,7 +219,7 @@
                             </div>                            <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/jbarriga.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Jose Barriga</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/jose"; ?>">Jose Barriga</a></h6>
                                     <p>Encargado de laboratorios</p>
                                     Teléfono: 7877100<br>
                                      
@@ -236,7 +236,7 @@
                                                         <div class="wrapper img-indent-bot">
                                 <figure class="img-indent"><img src="<?= base_url() . "images/ovillalobos.jpg"; ?>" alt="" /></figure>
                                 <div class="extra-wrap">
-                                    <h6 class="reg p0"><a class="link" href="#">Omar Villalobos</a></h6>
+                                    <h6 class="reg p0"><a class="link" href="">Omar Villalobos</a></h6>
                                     <p>Encargado de laboratorios</p>
                                     Teléfono: 7877100<br>
                                     
