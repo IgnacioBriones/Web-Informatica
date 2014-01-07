@@ -29,10 +29,10 @@ class login extends CI_Controller {
         $auth = $this->ws_dirdoc->autenticar($rut, $pass);
         //¿QUE HACER CUANDO TIRE ERROR??
             $this->load->model('funcionario_model');
-            $fun =  $this->funcionario_model->leer_funcionario($rut);
+            $fun['ps'] =  $this->funcionario_model->leer_funcionario($rut);
             if($fun)
             {
-                $ps = $fun['passwd'];
+                
                 if($ps == $pass)
                 {
                     $nomb= $fun->alias_f;

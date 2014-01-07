@@ -29,12 +29,15 @@ class Noticia extends CI_Controller {
     public function agregar() {
 
         if ($this->input->post()) {
+
+$this->load->helper('date');
+$format = 'DATE_W3C';
+$time = time();
             $noticia = array(
-                'idnoticia' => $this->input->post('idnoticia', true),
-                'titulo_noticia' => $this->input->post('titulo_noticia', true),
-                'cuerpo_noticia' => $this->input->post('cuerpo_noticia', true),
-                'fecha_publicacion_n' => $this->input->post('fecha_publicacion_n', true),
-                'alias_user' => $this->input->post('alias_user', true)
+            'titulo_noticia' => $this->input->post('titulo_noticia', true),
+            'cuerpo_noticia' => $this->input->post('cuerpo_noticia', true),
+            'fecha_publicacion_n' => '2014-01-07'  ,
+            'alias_user' => $this->input->post('alias_user', true)
             );
             if ($this->noticia_model->agregar($noticia)) {
                 $this->session->set_flashdata('msg, los datos de la noticia han sido guardado exitosamente');

@@ -19,4 +19,4 @@ select * from cee;*/
 ('2014-1-3','se necesita programador en java','5to año o mas','pega@pega.cl','empresaconnotada2'),
 ('2014-1-4','se necesita programador en python','5to año o mas','pega@pega.cl','empresaconnotada3');*/
 
-select * from funcionario;
+select * from noticia;
