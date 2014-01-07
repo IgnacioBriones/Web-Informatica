@@ -1,0 +1,412 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+\usepackage{bookman}
+\usepackage[T1]{fontenc}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Titlehead
+Universidad Tecnológica Metropolitana
+\begin_inset Newline newline
+\end_inset
+
+Facultad de Ingeniería
+\begin_inset Newline newline
+\end_inset
+
+Departamento de Computación e Informática
+\begin_inset Newline newline
+\end_inset
+
+Ingeniería en Software
+\end_layout
+
+\begin_layout Title
+Manual De Usuario
+\end_layout
+
+\begin_layout Subject
+Portal Web Informatica Utem
+\end_layout
+
+\begin_layout Author
+Fernando Rubilar, Ignacio Briones, Sebastián Cerón
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Introducción
+\end_layout
+
+\begin_layout Chapter
+Introducción
+\end_layout
+
+\begin_layout Standard
+A lo largo de la historia de la escuela de informática siempre se ha buscado
+ la unidad como organización y a su vez que esta se dé a conocer tanto en
+ la universidad como al exterior, con la llegada del internet de manera
+ masiva es que se hace una necesidad tener un portal web como escuela y
+ departamento en su conjunto, el 2009 se levanta un portal el cual hasta
+ hoy en día se mantiene online el cual si bien cumple algunas necesidades,
+ faltan varios puntos por resolver para tener una mejor pagina, es por esto
+ que se desarrolla siguiendo una línea similar un nuevo portal web más amigable
+ y con funcionalidades que el anterior no contaba.
+ En el siguiente documento se explica paso a paso como usar nuestro portal
+ y con que te encontraras.
+\end_layout
+
+\begin_layout Part
+Manual De Usuario
+\end_layout
+
+\begin_layout Chapter
+Manual De Usuario
+\end_layout
+
+\begin_layout Standard
+En el inicio de la página aparece el home.
+\end_layout
+
+\begin_layout Enumerate
+En la parte superior te encontraras con un panel donde su nombre habla por
+ si solo lo que encontraras ya sea funcionarios, estudiantes , contacto,
+ etc.
+ En la parte central encontraras una reseña sobre la vision y mision de
+ la escuela junto con un slide de imagenes actuales.
+ Y en la parte de abajo encontraras links a nuestras redes socials y un
+ numero de contacto fijo.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_1.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Home de la Web
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego al presionar en al epstaña funcionarios veremos una lista d eimagenes
+ y datos de contactos de todos los funcionarios y academicos que pertenecen
+ a la escuela de informatica de la utem , a su vez para tener una informacion
+ mas detallada se preciona en el nombre de ellos y nos llevara a una pagina
+ mas completa.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_2.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Funcionarios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Luego al precionar en la pestaña estudiante nos llevara a la pagina con
+ informacion relvante para aquellos estudiantes que anden en busca de informacio
+n como reglamento de la carrera, malla curricular o contacto e informacion
+ sobre los centros de alumnos de la escuela.
+ Cada subseccion te redirije a la pagina de interes.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_3.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Estudiantes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+En la pestaña laboral te encontraras con las ultimas ofertas de trabajo
+ que llegan a nuestra escuela donde encontraras los numeros de contactos
+ y email para solicitarlas , esta vista se ve como la siguiente imagen.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_4.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Ofertas Laborales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La seccion noticias despliega los ultimos acontecimientos importantes de
+ publico saber de la escuela estas noticias son publicadas por aquellos
+ academicos y fuincionarios con permisos de agregar contenido a la web,
+ cuyas noticias van al dia y son de fidedigna informacion.
+ Todas cuentan con el autor de quien publica y edita las noticias, estas
+ se ven como en la siguiente imagen.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_5.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Noticias
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La seccion contacto podras encontrar todas nuestros datos para contactar
+ en la escuela ya sea numeros de telefonos y email, de hecho cuenta con
+ un campo de posteo directo hacia el mail de la escuela, tambien encontraras
+ un mapa que te indica donde encontrarnos, en caso de necesitar acercarte
+ a nuestras dependencias, la apgina se ve de la siguiente forma.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename pantalla_usu_6.png
+	scale 50
+	rotateOrigin centerBottom
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Contacto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
