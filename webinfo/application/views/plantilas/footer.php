@@ -14,10 +14,10 @@
                         </div>
                         <div class="grid_3">
                             <ul class="list-services">
-                                <li><a class="l-1" href="#"></a></li>
-                                <li><a class="l-2" href="#"></a></li>
-                                <li><a class="l-3" href="#"></a></li>
-                                <li><a class="l-4" href="#"></a></li>
+                                <li><a class="l-1" href="https://www.facebook.com/groups/exAlumnosInformaticaUtem/?fref=ts"></a></li>
+                                <li><a class="l-2" href="www.twitter.com"></a></li>
+                                <li><a class="l-3" href="www.linkedin.com"></a></li>
+                                
                             </ul>
                         </div>
                     </div>

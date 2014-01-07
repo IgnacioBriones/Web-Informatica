@@ -58,7 +58,7 @@
                     <article class="grid_12">
                         <div class="aligncenter inner-top">
                             <strong class="title-1">&quot;Cuerpo Laboral&quot;</strong>
-                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informatica,que se ha nutrido de un grupo de profesionales, han enriquecido la formacion de nuestros estudiantes con el apollo de
+                            <strong class="title-2">A lo largo de su desarrollo, la Unidad de Informatica,que se ha nutrido de un grupo de profesionales, han enriquecido la formacion de nuestros estudiantes con el apoyo de
                                 nuestros funcionarios de laboratorio, academicos y secretarias.</strong>
                         </div>
                     </article>
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/fjofre.jpeg"; ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/fcofre.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
                                 <h6 class="reg p0"><a class="link" href="#">Francisco Jofre</a></h6>
                                 <p>Academico</p>
