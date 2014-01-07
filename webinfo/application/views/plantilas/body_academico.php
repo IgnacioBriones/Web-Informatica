@@ -97,12 +97,12 @@
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/rcorbi.jpg"; ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/salazar.jpg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
                                 <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/ricardo"; ?>">Ricardo Corbinaud</a></h6>
                                 <p>Académico</p>
                                 Teléfono: 7877100<br>
-                                Email:  rcorbinaud@utem.cl 
+                                Email:  ssalazar@gmail.cl 
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/fjofre.jpeg"; ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/fcofre.jpeg"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
                                 <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/cofre"; ?>">Francisco Jofre</a></h6>
                                 <p>Academico</p>
