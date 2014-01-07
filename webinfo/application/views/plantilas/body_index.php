@@ -60,13 +60,13 @@
                                     <div class="slider">
                                         <ul class="items">
                                             <li>
-                                                <img src="<?= base_url() ."images/slider-img1.jpg" ;?>" alt="" />
+                                                <img src="<?= base_url() ."images/foto2.png" ;?>" alt="" />
                                             </li>
                                             <li>
-                                                <img src="<?= base_url() . "images/slider-img2.jpg";?>" alt="" />
+                                                <img src="<?= base_url() . "images/foto1.png";?>" alt="" />
                                             </li>
                                             <li>
-                                                <img src="<?= base_url() ."images/slider-img3.jpg";?>" alt="" />
+                                                <img src="<?= base_url() ."images/foto3.png";?>" alt="" />
                                             </li>
                                         </ul>
                                         <ul class="pagination">
