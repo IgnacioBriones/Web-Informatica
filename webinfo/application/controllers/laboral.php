@@ -20,7 +20,7 @@ class Laboral extends CI_Controller {
 
     public function index() {
         $data['title'] = 'laboral';
-        $data['laboral'] = $this->laboral_model->leer_laboral();
+        $data['laborales'] = $this->laboral_model->leer_laboral();
         $this->load->view('plantilas/header',$data);
         $this->load->view('plantilas/body_laboral',$data);
         $this->load->view('plantilas/footer');

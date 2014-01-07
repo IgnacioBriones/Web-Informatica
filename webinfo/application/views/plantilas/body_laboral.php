@@ -48,4 +48,38 @@
                 </div>
             </div>
         </div>
-    </header><div class="ic">More Website Templates  @ TemplateMonster.com - August 15th 2011!</div>
+    </header>
+    
+    <section id="content">
+        <div class="main">
+            <div class="container_12">
+                <div class="border-bot margin-bot">
+                    <article class="grid_12">
+                        <div class="aligncenter inner-top">
+                            <strong class="title-1">&quot;Ofertas laborales!&quot;</strong>
+                            <strong class="title-2">Ofertas laborales de las mejores empresas del mercado.</strong>
+                        </div>
+                    </article>
+                    <div class="clear"></div>
+                </div>
+                <div class="wrapper">
+                    <article class="grid_8 suffix_1 spacer-4">
+                        <h2>Ofertas laborales UTEM</h2>
+                        <?php foreach ($laborales as $laboral): ?>
+                            <div class="p3">
+                                <time class="tdate-2" datetime="<?= $laboral->fecha_publicacion_l ?>"><?= $laboral->fecha_publicacion_l ?></time>
+                                <h3 class="p0"><?= $laboral->titulo_laboral ?></h3>
+                                <p align="justify" class="p2"><?= $laboral->alias_usuario ?></p>
+                                <div class="wrapper">
+                                    <div class="extra-wrap">
+                                        <p class="margin-bot"><?= $laboral->cuerpo_laboral ?></p>
+                                        <p class="margin-bot"><?= $laboral->contacto_laboral ?></p>
+                                        <br><br>
+                                    </div>
+                                </div>
+                                                        <?php endforeach; ?>    
+                            </div>
+                  </div>
+            </div>
+        </div>
+    </section>
