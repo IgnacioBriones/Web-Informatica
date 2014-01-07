@@ -70,7 +70,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/imagen.php.jpg" ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/mauro" ?>">Mauro Castillo</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/mauro"; ?>">Mauro Castillo</a></h6>
                                 <p>Director de Escuela </p>        
                                 Teléfono: 78 77 100 <br>
                                 Email:  mcast@utem.cl <br>
@@ -106,12 +106,12 @@
                             </div>
                         </div>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/page4-img3.jpg"; ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/ptorrealba"; ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Marta Rojas</a></h6>
-                                <p>Jefe Carrera ICCI</p>
+                                <h6 class="reg p0"><a class="link" href="#"></a></h6>
+                                <p>Secretaria del departamento de informatica</p>
                                 Teléfono: 7877100<br>
-                                Email:  marta.rojas@utem.cl 
+                                Email:  ptorrealba@utem.cl 
                             </div>
                         </div>
 
@@ -141,6 +141,15 @@
                                 <p>Encargado de laboratorios</p>
                                 Teléfono: 7877100<br>
                                  
+                            </div>
+                        </div>
+                        <div class="wrapper img-indent-bot">
+                            <figure class="img-indent"><img src="<?= base_url() . "images/fjofre.jpeg"; ?>" alt="" /></figure>
+                            <div class="extra-wrap">
+                                <h6 class="reg p0"><a class="link" href="#">Francisco Jofre</a></h6>
+                                <p>Academico</p>
+                                Teléfono: 7877069<br>
+                                Email:  fcofre@utem.cl 
                             </div>
                         </div>
 
