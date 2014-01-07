@@ -78,7 +78,7 @@ and open the template in the editor.
                             <div class="extra-wrap">
                                 <h6 class="reg p0"><a class="link" href="#">Francisco Alberto Cofré Gajardo</a></h6>
                                 <p><strong>Director de Escuela </p></strong>        
-                                Teléfono: 78 77 100 
+                                Teléfono: 78 77 100 <br>
                                 Email:  fcofre@utem.cl <br>
                                 <br><h6 class="reg p0"><a class="link" href="#">Títulos y Grados </a></h6>
                                      Ingeniero en Computación e Informática de la Universidad de Concepción (Chile) obtenido el año 1983.

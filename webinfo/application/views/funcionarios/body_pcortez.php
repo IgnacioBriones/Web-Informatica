@@ -74,17 +74,14 @@ and open the template in the editor.
                     <article class="grid_6">
                         <h2 class="indent-bot">Nuestro equipo</h2>
                         <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/imagen.php.jpg" ?>" alt="" /></figure>
+                            <figure class="img-indent"><img src="<?= base_url() . "images/pcortez.jpg" ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Mauro Castillo</a></h6>
-                                <p><strong>Director de Escuela </p></strong>        
+                                <h6 class="reg p0"><a class="link" href="#">Pamela Cortez</a></h6>
+                                <p><strong>Secretaria de la escuela de informatica. </p></strong>        
                                 Teléfono: 78 77 100 
-                                Email:  mcast@utem.cl <br>
-                                <br><h6 class="reg p0"><a class="link" href="#">Títulos y Grados </a></h6>
-                                 - Profesor de Matemáticas y Computación de la Universidad de Santiago (Chile) obtenido el año 1991.
-    - Licenciado en Educación de la Universidad de Santiago (Chile) obtenido el año 1991.<br>
-    - Ingeniero de Ejecución en Informática de la Universidad Tecnológica Metropolitana (Chile) obtenido el año 1995.<br>
-    - Doctor Ph. D. ( c ) Inteligencia Artificial de la Universidad Politécnica De Cataluña (España) obtenido el año 2005<br>.
+                                Email:  pcortez@utem.cl <br>
+                                <br><h6 class="reg p0"><a class="link" href="#"> </a></h6>
+                                 - .
                             </div>
                         </div>
                         

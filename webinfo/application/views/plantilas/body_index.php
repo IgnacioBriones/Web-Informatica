@@ -91,9 +91,9 @@
                         <article class="grid_12">
                             <div class="aligncenter inner-top">
                                 <strong class="title-1">&quot;Estudiantes Conscientes!&quot;</strong>
-                                <strong class="title-2">Bienvenido al portal de la Escuela de Informática de la Universidad Tecnológica Metropolitana.
-El compromiso fundacional asumido por la Escuela de Informática es la formación de profesionales de la computación y la informática capaces de liderar proyectos de ingeniería informática, abordar la planificación estratégica de sistemas de computación y de gestión informática, y dirigir las áreas de desarrollo y producción de sistemas informáticos en las organizaciones.
-Le invitamos a navegar por nuestro sitio y a ser partícipe de nuestra institución...</strong>
+                                <strong class="title-2">Bienvenido al portal de la Escuela de Informatica de la Universidad Tecnologica Metropolitana.
+El compromiso fundacional asumido por la Escuela de Informatica es la formacion de profesionales de la computacion y la informatica capaces de liderar proyectos de ingenieria informatica, abordar la planificacion estrategica de sistemas de computacion y de gestion informatica, y dirigir las areas de desarrollo y produccion de sistemas informaticos en las organizaciones.
+Le invitamos a navegar por nuestro sitio y a ser partícipe de nuestra institucion.</strong>
                             </div>
                         </article>
                         <div class="clear"></div>
