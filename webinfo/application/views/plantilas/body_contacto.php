@@ -74,7 +74,7 @@
                                     <div class="wrapper"><div class="text-form">Mensaje:</div><textarea></textarea></div>
                                     <div class="buttons">
                                         <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Limpiar</a>
-                                        <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Enviar</a>
+                                        <a class="button" href="" onClick="document.getElementById('contact-form').submit()">Enviar</a>
                                     </div>							 
                                 </fieldset>						
                             </form>
