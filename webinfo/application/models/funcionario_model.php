@@ -18,7 +18,7 @@ class Funcionario_model extends CI_Model {
         parent::__construct();
     }
 
-    public function leer_funcionario() {
+    public function leer_funcionarios() {
         $query = $this->db->order_by('rut')->
                         select('rut, nombre_funcionario')
                         ->from($this->tabla)->get();
@@ -34,11 +34,12 @@ class Funcionario_model extends CI_Model {
                         update($this->tabla, $dato)->where('rut', $idlaboral);
     }
 
-    public function leer_funcionarios($rut) {
-        $query = $this->db->select('rut, nombre_funcionario')
-                        ->from($this->tabla)->where($codigo)->post()->row();
+    public function leer_funcionario($rut) {
+        $query = $this->db->select('*')->where('rut',$rut)
+                        ->from($this->tabla)->get()->row();
         return $query;
     }
+
 
 }
 

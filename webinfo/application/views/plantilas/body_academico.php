@@ -70,7 +70,7 @@
                         <div class="wrapper img-indent-bot">
                             <figure class="img-indent"><img src="<?= base_url() . "images/imagen.php.jpg" ?>" alt="" /></figure>
                             <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Mauro Castillo</a></h6>
+                                <h6 class="reg p0"><a class="link" href="<?= base_url() . "index.php/mauro" ?>">Mauro Castillo</a></h6>
                                 <p>Director de Escuela </p>        
                                 Teléfono: 78 77 100 <br>
                                 Email:  mcast@utem.cl <br>
@@ -141,15 +141,6 @@
                                 <p>Encargado de laboratorios</p>
                                 Teléfono: 7877100<br>
                                  
-                            </div>
-                        </div>
-                        <div class="wrapper img-indent-bot">
-                            <figure class="img-indent"><img src="<?= base_url() . "images/fjofre.jpeg"; ?>" alt="" /></figure>
-                            <div class="extra-wrap">
-                                <h6 class="reg p0"><a class="link" href="#">Francisco Jofre</a></h6>
-                                <p>Academico</p>
-                                Teléfono: 7877069<br>
-                                Email:  fcofre@utem.cl 
                             </div>
                         </div>
 
